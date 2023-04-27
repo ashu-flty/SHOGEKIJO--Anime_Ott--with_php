@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Header part */
+.showcase {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url(images/bg-image.jpg) no-repeat center center/cover;
+}
+
+.showcase::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+}
+
+/* Navbar */
+.showcase-top {
+    position: relative;
+    z-index: 2;
+    padding: 26px 0px 0px 56px;
+}
+
+.showcase-top #logo {
+    height: 35px;
+}
+
+.showcase-top .submit {
+    background-color: gray;
+    color: aliceblue;
+    border: none;
+    padding: 5px 16px;
+    border-radius: 3px;
+    float: right;
+    position: relative;
+    right: 55px
+}
+
+.showcase-top select {
+    background-color: transparent;
+    border-radius: 3px;
+    color: white;
+    padding: 5px 10px;
+    float: right;
+    position: relative;
+    right: 85px
+}
+
+.showcase-top select option {
+    color: black;
+}
+
+.showcase .content-part h1 {
+    font-size: 2.9rem;
+
+}
+
+.showcase .content-part .para-1 {
+    font-size: 1rem;
+
+}
+
+/* FORM SECTION */
+
+.showcase .content-part {
+    z-index: 2;
+    position: relative;
+    top: 70px;
+    width: 100%;
+    color: aliceblue;
+    text-align: center;
+}
+
+.sign-up {
+    z-index: 2;
+    position: absolute;
+    background-color: #0000008a;
+    top: 36%;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    width: 25%;
+    border-radius: 3px;
+    color: white;
+    padding: 30px;
+    height: 392px;
+
+}
+
+.sign-up .input-box {
+    display: flex;
+    flex-direction: column;
+
+}
+.sign-up{
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+
+    
+.sign-up .input-box input {
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    font-size: 1em;
+    background-color: white;
+}
+
+.sign-up .input-box button {
+    border: none;
+    padding: 15px;
+    margin: 50px 10px 0px 10px;
+    color: white;
+    font-size: 1em;
+    font-weight: 3px;
+    border-radius: 5px;
+    background-color: gray;
+}
+
